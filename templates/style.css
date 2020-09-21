@@ -13,7 +13,9 @@
 
 html,
 body {
-  background: #fff;
+  background-color: #fff;
+  background-image: url(https://raw.githubusercontent.com/marvindanig/what-is-covid19/master/assets/images/virus-repeator.jpg);
+  background-repeat: repeat;
   margin: 0 0;
   overflow: hidden;
   color: #000;
