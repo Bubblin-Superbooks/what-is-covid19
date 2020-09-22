@@ -54,7 +54,7 @@ h4,
 h5 {
   width: 100%;
   text-align: center;
-  line-height: calc(2 * 4vw * 1.50);
+  line-height: 2;
 }
 
 h5,
@@ -72,7 +72,7 @@ h6 {
   margin: 0 0;
   padding: 0;
   color: #000;
-  font-weight: 100;
+  font-weight: 600; 
 }
 
 h1 {
@@ -182,7 +182,7 @@ code {
   background-color: rgb(240, 234, 224);
 }
 
-ol {
+/* ol {
   margin: calc((4vw * 1.50)/2) 5vw;
   padding: 0;
   list-style-type: none;
@@ -210,7 +210,7 @@ ol li.split-li::before {
   color: black;
   font-weight: bold;
   padding: 0.3vw 0.8vw 0.3vw 0;
-}
+} */
 
 ul {
   margin: 4vw 0 0 0;
@@ -319,6 +319,9 @@ hr::before {
   text-align: justify;
 }
 
+.pad {
+  padding: 2vmin;
+}
 
 /* Helper classes */
 
