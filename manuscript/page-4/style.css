@@ -1,0 +1,10 @@
+body {
+    background-image: url(https://raw.githubusercontent.com/marvindanig/what-is-covid19/master/assets/images/image--004.jpg);
+}
+
+.sleeve {
+    position: absolute;
+    height: 100vh;
+    width: 40vmin;
+    background-color: rgba(0, 0, 0, 0.6);
+}

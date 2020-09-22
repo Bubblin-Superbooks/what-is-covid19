@@ -1,3 +1,20 @@
-body {
-    background-image: url(https://raw.githubusercontent.com/marvindanig/what-is-covid19/master/assets/images/1.png?token=ABLF2FGVV32NP27DI6FPD2K7M5VTY);
+.leaf {
+    background-color: black;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 7vmin, rgba(255, 255, 0, 1) 7vmin, rgba(255,255, 0, 1) 14vmin);
+}
+.inner {
+    background-color: #fff;
+    background-image: url(https://raw.githubusercontent.com/marvindanig/what-is-covid19/master/assets/images/virus-repeator.jpg);
+}
+
+.teal {
+    background-color: rgb(93, 179, 179);
+    padding: 4vmin 6vmin; 
+}
+
+.teal > h1, .teal > h2 {
+    color: white;
+    font-weight: 600;
+    line-height: 1;
+    text-shadow: 6px 6px 12px #000;
 }

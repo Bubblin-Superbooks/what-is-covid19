@@ -11,6 +11,14 @@
 *
 */
 
+:root {
+  /*Font family */
+  --sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --system: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Droid Sans, Helvetica Neue, Fira Sans, sans-serif!important;
+  --monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --serif: -apple-system-ui-serif, ui-serif, "Apple Garamond", "Baskerville", "Times New Roman", "Droid Serif", "Times", "Source Serif Pro", serif;
+}
+
 html,
 body {
   background-color: #fff;
@@ -21,7 +29,7 @@ body {
   color: #000;
   height: 100vh;
   width: 100vw;
-  font-family: 'EB Garamond', serif;
+  font-family: var(--sans-serif);
   font-style: normal;
   font-synthesis: none;
   font-stretch: ultra-condensed;
@@ -53,7 +61,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Berkshire Swash', cursive;
+  font-family: var(--sans-serif);
   margin: 0 0;
   padding: 0;
   color: #000;
@@ -124,7 +132,7 @@ p.start-chapter:first-letter {
   margin: 0 1vw 0 0;
   font-size: calc(3 * 4vw); /* three times normal size */
   line-height: calc(2 * 4vw * 1.50 * 0.95);
-  font-family: 'Berkshire Swash', cursive;
+  font-family: var(--serif);
 }
 
 
@@ -156,7 +164,7 @@ code {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'EB Garamond', serif;
+  font-family: var(--monospace);
   font-style: normal;
   font-synthesis: none;
   font-stretch: ultra-condensed;
@@ -293,7 +301,6 @@ hr::before {
   max-height: calc(17 * (4vw * 1.5) + 4vw);
   break-after: right;
   display:inline-block;
-  /* background: aliceblue; */  /* enable to see the maximum staging area */
 }
 
 .flex {
@@ -345,6 +352,10 @@ p.stretch-para {
 
 .small {
   font-size: 80%;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 /* Accessibility specific media queries go below. */
