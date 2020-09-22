@@ -1,9 +1,9 @@
 {
-  "name": "what-is-covid-19",
+  "name": "What is Covid-19?",
   "type": "magazine",
   "has_page_numbers": false,
   "cover": {
-    "punchline": "",
+    "punchline": "A round virus with crown-like spikes on their surface.",
     "toc": "",
     "author_detail": "",
     "colophon": "",
